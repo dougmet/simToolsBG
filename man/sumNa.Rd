@@ -10,7 +10,7 @@ sumNa(x)
 \item{x}{A vector}
 }
 \value{
-Number of NAs
+Number of NAs in x
 }
 \description{
 Count NAs in a vector
