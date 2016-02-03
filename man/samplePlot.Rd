@@ -18,9 +18,7 @@ ggplot object
 go away
 }
 \examples{
-\dontrun{
 samplePlot(airquality, 10)
-}
 
 }
 
