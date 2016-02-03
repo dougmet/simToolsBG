@@ -2,7 +2,10 @@ Package: simTools
 Title: Simulation Analysis Tools
 Version: 0.0.0.9000
 Authors@R: person("Doug", "Ashton", email = "dashton@mango-solutions.com", role = c("aut", "cre"))
-Description: A series tools for simulation analysis used for learning about distributions.
-Depends: R (>= 3.1.2)
+Description: A series tools for simulation analysis used for learning about
+    distributions.
+Depends:
+    R (>= 3.1.2)
 License: GPL-2
 LazyData: true
+RoxygenNote: 5.0.1
