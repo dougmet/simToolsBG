@@ -3,7 +3,7 @@
 #'
 #' @param x A vector
 #'
-#' @return Number of NAs
+#' @return Number of NAs in x
 #'
 #' @examples
 #' \dontrun{
@@ -25,5 +25,6 @@ sumNa <- function(x) {
 #' naCounter(airquality)
 #'
 naCounter <- function(data) {
+  stopifnot(is.matrix(data) | is.data.frame(data))
   apply(data, 2, sumNa)
 }
